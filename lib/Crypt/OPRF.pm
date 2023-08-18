@@ -3,7 +3,7 @@ package Crypt::OPRF;
 
 use strict;
 use warnings;
-use bignum;
+#use bignum;
 
 require Exporter;
 
@@ -13,6 +13,8 @@ use Crypt::OpenSSL::Hash2Curve;
 use Crypt::OpenSSL::Base::Func;
 
 #use Smart::Comments;
+
+our $VERSION = 0.011;
 
 our @ISA    = qw(Exporter);
 our @EXPORT = qw/
