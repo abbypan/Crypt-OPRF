@@ -14,7 +14,7 @@ use Crypt::OpenSSL::Base::Func;
 
 #use Smart::Comments;
 
-our $VERSION = 0.011;
+our $VERSION = 0.012;
 
 our @ISA    = qw(Exporter);
 our @EXPORT = qw/
